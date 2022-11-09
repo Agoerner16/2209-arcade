@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+#board {
+    width: 12rem;
+    padding: 20 px;
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+#cell {
+    padding: 5px;
+    border: solid 1px black;
+    background-color: rebeccapurple;
+    height: 4rem;
+    width: 4rem; 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+button {
+    margin: 20px;
+    
+}
+
